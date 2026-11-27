@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "name": "habuild-mcp",
+  "displayName": "Habuild",
+  "version": "0.3.0",
+  "description": "Habuild MCP gateway: every onboarded Habuild service's tools through one endpoint, signed in with your Habuild admin-panel login, plus skills for editing screens and managing proposals.",
+  "compat": {
+    "source": "native",
+    "manifestDir": ".muse-plugin"
+  },
+  "capabilities": {
+    "skills": [
+      {
+        "id": "create-a-screen",
+        "path": "skills/create-a-screen/SKILL.md"
+      },
+      {
+        "id": "edit-a-screen",
+        "path": "skills/edit-a-screen/SKILL.md"
+      },
+      {
+        "id": "my-proposals",
+        "path": "skills/my-proposals/SKILL.md"
+      }
+    ],
+    "mcpServers": [
+      {
+        "id": "habuild",
+        "transport": "http",
+        "url": "https://mcp-service.habuild.in/mcp/v1"
+      }
+    ]
+  }
+}

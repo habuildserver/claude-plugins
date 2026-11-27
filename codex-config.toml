@@ -1,5 +1,0 @@
-# Append to ~/.codex/config.toml, then: codex mcp login habuild
-experimental_use_rmcp_client = true
-
-[mcp_servers.habuild]
-url = "https://mcp-service.habuild.in/mcp/v1"
