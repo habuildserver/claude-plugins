@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "habuild",
+  "description": "Habuild engineering plugins for Claude Code.",
+  "owner": {
+    "name": "Habuild Engineering",
+    "url": "https://github.com/habuildserver"
+  },
+  "plugins": [
+    {
+      "name": "habuild-mcp",
+      "description": "Every onboarded Habuild MCP service in one connector, with Claude sign-in.",
+      "source": "./plugins/habuild-mcp",
+      "category": "productivity"
+    }
+  ]
+}

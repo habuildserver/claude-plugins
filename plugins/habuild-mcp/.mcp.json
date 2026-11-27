@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "habuild": {
+      "type": "http",
+      "url": "https://mcp-service.habuild.in/mcp/v1"
+    }
+  }
+}
