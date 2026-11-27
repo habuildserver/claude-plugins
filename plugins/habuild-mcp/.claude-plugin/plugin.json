@@ -1,6 +1,6 @@
 {
   "name": "habuild-mcp",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Habuild MCP gateway: every onboarded service's tools through one endpoint, signed in with your Habuild admin login.",
   "author": {
     "name": "Habuild Engineering",
