@@ -9,9 +9,14 @@
   "plugins": [
     {
       "name": "habuild-mcp",
-      "description": "Every onboarded Habuild MCP service in one connector, with Claude sign-in.",
-      "source": "./plugins/habuild-mcp",
-      "category": "productivity"
+      "description": "Habuild MCP gateway: every onboarded Habuild service's tools through one endpoint, signed in with your Habuild admin-panel login, plus skills for editing screens and managing proposals.",
+      "version": "0.3.0",
+      "source": "./",
+      "category": "productivity",
+      "author": {
+        "name": "Habuild Engineering",
+        "url": "https://github.com/habuildserver"
+      }
     }
   ]
 }

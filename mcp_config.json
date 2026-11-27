@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "habuild": {
+      "serverUrl": "https://mcp-service.habuild.in/mcp/v1"
+    }
+  }
+}
